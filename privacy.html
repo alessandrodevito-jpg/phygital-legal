@@ -21,7 +21,7 @@
 
 <h1>Privacy Policy</h1>
 <p class="meta">
-  Version 1.1 &nbsp;·&nbsp; Last updated: April 2026 &nbsp;·&nbsp;
+  Version 1.2 &nbsp;·&nbsp; Last updated: April 2026 &nbsp;·&nbsp;
   <a href="https://github.com/alessandrodevito-jpg/phygital-legal/commits/main/privacy.html">Changelog</a>
 </p>
 
@@ -77,24 +77,37 @@
   <tr><td>Wallet-linked data</td><td>Until deletion request or 12-month inactivity</td></tr>
 </table>
 
-<h2>5. Data Sharing</h2>
+<h2>5. EU Data Residency</h2>
+<p>
+  All personal data is stored and processed within the <strong>European Union</strong>. Our primary infrastructure runs in Amsterdam (Netherlands) and Ireland — both EU member states.
+</p>
+<table>
+  <tr><th>Component</th><th>Provider</th><th>Location</th><th>SOC 2</th></tr>
+  <tr><td>Backend API</td><td>Railway</td><td>EU West — Amsterdam, Netherlands</td><td>Type II</td></tr>
+  <tr><td>Database &amp; Authentication</td><td>Supabase (AWS eu-west-1)</td><td>Ireland, EU</td><td>Type II</td></tr>
+</table>
+<p>
+  The data controller (Alessandro De Vito) is EU-based. Personal data does not leave the EU except where explicitly noted in section 6 below.
+</p>
+
+<h2>6. Data Sharing and Sub-processors</h2>
 <p>We share data only with the following sub-processors, each bound by their own privacy and security commitments:</p>
 <table>
   <tr><th>Vendor</th><th>Purpose</th><th>Location</th><th>SOC 2</th></tr>
-  <tr><td>Railway</td><td>Backend hosting</td><td>EU West (Amsterdam)</td><td>Type II</td></tr>
-  <tr><td>Supabase</td><td>Database, authentication</td><td>AWS eu-west-1</td><td>Type II</td></tr>
-  <tr><td>Anthropic</td><td>AI content generation</td><td>USA</td><td>Enterprise</td></tr>
-  <tr><td>Resend</td><td>Transactional email</td><td>USA</td><td>—</td></tr>
-  <tr><td>Thirdweb</td><td>NFT / blockchain SDK</td><td>USA</td><td>—</td></tr>
+  <tr><td>Railway</td><td>Backend hosting</td><td>EU West (Amsterdam) 🇪🇺</td><td>Type II</td></tr>
+  <tr><td>Supabase</td><td>Database, authentication</td><td>AWS eu-west-1 (Ireland) 🇪🇺</td><td>Type II</td></tr>
+  <tr><td>Anthropic</td><td>AI content generation (product metadata only — no personal data)</td><td>USA 🇺🇸</td><td>Enterprise</td></tr>
+  <tr><td>Resend</td><td>Transactional email</td><td>USA 🇺🇸</td><td>—</td></tr>
+  <tr><td>Thirdweb</td><td>NFT / blockchain SDK (wallet address + contract params — public on-chain data)</td><td>USA 🇺🇸</td><td>—</td></tr>
 </table>
 <p>We never sell personal data. We do not share data with third parties for advertising purposes.</p>
 
-<h2>6. International Transfers</h2>
+<h2>8. International Transfers</h2>
 <p>
-  Anthropic, Resend, and Thirdweb are US-based. Data transfers are covered by Standard Contractual Clauses (SCCs) or the EU-US Data Privacy Framework where applicable. Supabase and Railway process data within the EU.
+  Anthropic, Resend, and Thirdweb are US-based. Transfers to these processors are covered by Standard Contractual Clauses (SCCs) incorporated into their respective Data Processing Agreements. Supabase and Railway process data exclusively within the EU — no transfer occurs.
 </p>
 
-<h2>7. Your Rights (GDPR)</h2>
+<h2>9. Your Rights (GDPR)</h2>
 <p>If you are located in the European Economic Area, you have the following rights:</p>
 <ul>
   <li><strong>Access (Art. 15):</strong> Request a copy of your personal data</li>
@@ -108,17 +121,17 @@
   To exercise any of these rights, email <a href="mailto:privacy@phygital.io">privacy@phygital.io</a>. We will respond within 30 days. You also have the right to lodge a complaint with your local data protection authority.
 </p>
 
-<h2>8. Security</h2>
+<h2>10. Security</h2>
 <p>
   We implement technical and organisational measures to protect your data, including: TLS encryption in transit, PostgreSQL encryption at rest, role-based access control, multi-factor authentication for all team members, and a comprehensive audit trail. See our <a href="https://github.com/alessandrodevito-jpg/phygital-core/blob/main/SECURITY.md">Security Policy</a> for details.
 </p>
 
-<h2>9. Cookies</h2>
+<h2>11. Cookies</h2>
 <p>
   The Phygital dashboard uses only technically necessary session cookies (Supabase Auth). No advertising or analytics cookies are set. No consent banner is required for technically necessary cookies under ePrivacy Directive recital 25.
 </p>
 
-<h2>10. Government and Law Enforcement Access</h2>
+<h2>12. Government and Law Enforcement Access</h2>
 <p>
   We disclose personal data to government authorities or law enforcement only when we are legally required to do so (GDPR Art. 6(1)(c) — legal obligation). We do not voluntarily provide personal data to any government body without a valid legal requirement.
 </p>
@@ -135,12 +148,12 @@
   We will notify affected users or brands of any legally permissible government request unless we are prohibited from doing so by a court order or applicable law. We publish transparency information about such requests in our annual security review.
 </p>
 
-<h2>11. Changes to This Policy</h2>
+<h2>13. Changes to This Policy</h2>
 <p>
   We will notify brand users by email (via Resend) of any material changes at least 14 days before they take effect. The version history is available in the <a href="https://github.com/alessandrodevito-jpg/phygital-legal/commits/main/privacy.html">commit history</a> of this file.
 </p>
 
-<h2>12. Contact</h2>
+<h2>14. Contact</h2>
 <p>
   Data Controller: Alessandro De Vito<br>
   Privacy enquiries: <a href="mailto:privacy@phygital.io">privacy@phygital.io</a><br>
@@ -148,7 +161,7 @@
 </p>
 
 <footer>
-  &copy; 2026 Phygital · Version 1.1 · April 2026
+  &copy; 2026 Phygital · Version 1.2 · April 2026
 </footer>
 
 </body>
